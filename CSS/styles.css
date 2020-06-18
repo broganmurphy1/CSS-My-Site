@@ -1,4 +1,14 @@
-.body
+body
 {
-  background-color: blue;
+  margin: 0;
+}
+
+h1
+{
+  margin: 0;
+}
+
+div
+{
+  background-color: #ddf3f5;
 }
