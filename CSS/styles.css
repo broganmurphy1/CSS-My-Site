@@ -8,7 +8,26 @@ h1
   margin: 0;
 }
 
-div
+.TopContainer
 {
   background-color: #ddf3f5;
+}
+
+.MidContainer
+{
+  background-color: red;
+  height: 200px;
+  width: 200px
+}
+
+.BotContainer
+{
+  background-color: blue;
+  height: 200px;
+  width: 200px
+}
+
+.ENU
+{
+  text-decoration: underline;
 }
