@@ -27,7 +27,16 @@ h1
   width: 200px
 }
 
-.ENU
+.span-ENU
 {
   text-decoration: underline;
+}
+
+.walter-img
+{
+  height: 100px;
+  width: 100px;
+  position: relative;
+  bottom: 390px;
+  left: 1650px;
 }
