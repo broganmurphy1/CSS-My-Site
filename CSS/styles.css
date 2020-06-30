@@ -2,17 +2,20 @@ body
 {
   margin: 0;
   text-align: center;
-  font-family: "Century Gothic",CenturyGothic,AppleGothic,sans-serif;
+  line-height: 2
 }
 
 h1
 {
+  color: #66BFBF;
   font-family: 'Montserrat', sans-serif;
   font-size: 5.625rem;
+  margin-top: 50px;
 }
 
 h2
 {
+  color: #66BFBF;
   font-family: 'Roboto Mono', monospace;
   font-size: 2.5rem;
   width: 700px;
@@ -21,14 +24,52 @@ h2
 
 h3
 {
+  color: #11999E;
   font-family: 'Roboto Mono', monospace;
-  width: 700px;
   margin: 0 auto 0 auto;
 }
 
 p
 {
   font-family: 'Ubuntu', sans-serif;
+}
+
+a
+{
+  text-decoration: none;
+}
+
+ul
+{
+  font-family: 'Ubuntu', sans-serif;
+}
+
+hr
+{
+    width: 5%;
+    border-style: none;
+    border-top-style: dotted;
+    border-color: grey;
+    border-width: 5px;
+    margin: 100px auto 100px auto;
+}
+
+.skills
+{
+  margin: 50px auto 50px auto;
+}
+
+.skill-row
+{
+  width: 50%;
+  margin: 50px auto 100px auto;
+  text-align: left;
+}
+
+.list-of-skills
+{
+  margin-left: 210px;
+  clear: left;
 }
 
 .top-container
@@ -38,20 +79,43 @@ p
   padding-top: 100px;
 }
 
+.SEStudent-h2
+{
+  font-weight: normal;
+}
+
 .middle-container
 {
-  background-color: #ddf3f5;
+  margin: 100px auto 50px auto;
 }
 
 .bottom-container
 {
-  background-color: #fbd46d;
-  padding-top: 20px;
+  background-color: #66BFBF;
+  padding: 20px 0 20px 0;
 }
 
 .span-ENU
 {
   text-decoration: underline;
+}
+
+.footer-link
+{
+  color: #11999E;
+  font-family: 'Ubuntu', sans-serif;
+  margin: 10px 20px 20px auto;
+}
+
+.footer-link:hover
+{
+  color: #EAF6F6;
+}
+
+.copyright-p
+{
+  color: #EAF6F6;
+  font-size: 0.75rem;
 }
 
 .bot-cloud-img
@@ -71,15 +135,17 @@ p
 .skills-img
 {
   height: 200px;
-  padding-top: 20px;
   width: 200px;
+  float: left;
+  margin-right: 30px;
 }
 
 .webdesign-img
 {
   height: 200px;
-  padding-top: 20px;
   width: 200px;
+  float: left;
+  margin-right: 30px;
 }
 
 .walter-img
@@ -89,4 +155,33 @@ p
   width: 75px;
   right: 10px;
   top: 10px;
+}
+
+.btn
+{
+  background: #11cdd4;
+  background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+  background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: 'Roboto Mono', monospace;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover
+{
+  background: #30e3cb;
+  background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+  text-decoration: none;
 }
